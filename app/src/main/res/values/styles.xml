@@ -1,0 +1,23 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+
+    <style name="RunTheme" parent="android:Theme.Material.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:logo">@android:color/transparent</item>
+    </style>
+
+    <style name="SettingsTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/status_bar</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="android:Theme.Material.Light.NoActionBar"></style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/toolbar_background</item>
+    </style>
+
+</resources>

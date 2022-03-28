@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Base application theme. -->
+
+    <style name="RunTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <item name="android:logo">@android:color/transparent</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="android:Theme.Material.Light.NoActionBar"></style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/toolbar_background</item>
+        <item name="android:textColor">@color/toolbar_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:translationZ">4dp</item>
+    </style>
+
+</resources>

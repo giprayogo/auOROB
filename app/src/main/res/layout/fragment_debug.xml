@@ -1,0 +1,142 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--TODO: mend and refactor-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:paddingTop="16dp"
+        tools:context=".DebugFragment">
+
+        <Switch
+            android:id="@+id/switch_debug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/switch_debug"
+            android:textAppearance="?android:attr/textAppearanceListItem"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_off"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_off"/>
+            <RadioButton
+                android:id="@+id/radio_line_follower_fw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_line_follower_fw"/>
+            <RadioButton
+                android:id="@+id/radio_line_follower_bw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_line_follower_bw"/>
+            <RadioButton
+                android:id="@+id/radio_line_follower_na"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_line_follower_eol"/>
+            <RadioButton
+                android:id="@+id/radio_nut_searching"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_nut_searching"/>
+            <RadioButton
+                android:id="@+id/radio_nut_taking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_nut_taking"/>
+            <RadioButton
+                android:id="@+id/radio_rotate_90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/radio_rotate_90" />
+        </RadioGroup>
+
+        <Switch
+            android:id="@+id/switch_magnet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Magnet"/>
+
+        <Switch
+            android:id="@+id/switch_lut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/switch_lut"/>
+
+        <Switch
+            android:id="@+id/switch_nld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/switch_nld"/>
+
+
+        <Switch
+            android:id="@+id/switch_threshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="@string/opencvsetting_threshold" />
+
+        <SeekBar
+            android:id="@+id/seekbar_threshold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:max="255"/>
+
+        <Switch
+            android:id="@+id/switch_color_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:text="@string/opencvsetting_filter" />
+
+        <Switch
+            android:id="@+id/switch_canny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/opencvsetting_canny"
+         />
+
+        <Switch
+            android:id="@+id/switch_line_detector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/opencvsetting_line_detector"
+             />
+
+        <Switch
+            android:id="@+id/switch_circle_detector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/opencvsetting_circle_detector"
+            />
+
+    </LinearLayout>
+</ScrollView>

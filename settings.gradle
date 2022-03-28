@@ -1,0 +1,4 @@
+include ':app', ':example', ':library'
+include ':openCVLibrary300'
+include ':openCVTutorial2MixedProcessing'
+include ':openCVTutorial1CameraPreview'

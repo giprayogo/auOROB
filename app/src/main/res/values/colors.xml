@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar_background">#aed581</color>
+    <color name="status_bar">#7cb342</color>
+
+    <color name="toolbar_background_timing">#f44336</color>
+    <color name="status_bar_timing">#c62828</color>
+
+    <color name="toolbar_background_lf_forward">#9C27B0</color>
+    <color name="status_bar_lf_forward">#6a1b9a</color>
+
+    <color name="toolbar_background_lf_backward">#2196F3</color>
+    <color name="status_bar_lf_backward">#1565c0</color>
+
+    <color name="toolbar_background_nut_searching">#FF9800</color>
+    <color name="status_bar_nut_searching">#ef6c00</color>
+
+    <color name="toolbar_background_nut_taking">#CDDC39</color>
+    <color name="status_bar_nut_taking">#9e9d24</color>
+
+    <color name="toolbar_background_slow_backward">#795548</color>
+    <color name="status_bar_lf_nut_area">#4e342e</color>
+
+    <color name="toolbar_background_rotate_90">#00bcd4</color>
+    <color name="status_bar_rotate_90">#00838f</color>
+
+    <color name="toolbar_text">#FFFFFF</color>
+    <color name="app_background">#EEEEEE</color>
+
+</resources>

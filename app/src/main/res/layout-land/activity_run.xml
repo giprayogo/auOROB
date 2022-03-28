@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Landscape layout-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/toolbar_background">
+
+        <!-- Main content view (i.e. not the nav drawer)-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!--Toolbar-->
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@android:color/background_light">
+
+                <!--Content Window-->
+                <FrameLayout
+                    android:id="@+id/content_frame"
+                    android:layout_width="360dp"
+                    android:layout_height="match_parent" />
+
+                <!-- Right drawer -->
+                <FrameLayout
+                    android:id="@+id/right_drawer"
+                    android:layout_width="240dp"
+                    android:layout_height="match_parent"
+                    android:background="#C0C0C0"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

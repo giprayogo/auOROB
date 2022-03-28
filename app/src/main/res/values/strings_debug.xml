@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="switch_debug">Debug</string>
+
+    <string name="switch_lut">LUT</string>
+    <string name="switch_nld">NLD</string>
+
+    <string name="radio_off">Off</string>
+    <string name="radio_line_follower_fw">LF Forward</string>
+    <string name="radio_line_follower_bw">LF Backward</string>
+    <string name="radio_line_follower_eol">LF EOL</string>
+    <string name="radio_nut_searching">Nut Searching</string>
+    <string name="radio_nut_taking">Nut Taking</string>
+    <string name="radio_slow_backward">Slow Backward</string>
+    <string name="radio_rotate_90">Rotate 90°</string>
+</resources>

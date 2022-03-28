@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/toolbar_background"
+    android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/toolbar_nut_count"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="4dp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/toolbar_race_countdown"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="4dp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/toolbar_acc_text"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="4dp"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/toolbar_gyro_text"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="4dp"
+            android:gravity="center_vertical"
+            />
+
+</Toolbar>
+

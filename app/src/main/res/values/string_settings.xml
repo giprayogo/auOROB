@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Magnet Position-->
+    <!--Keys-->
+    <string name="key_magnet_position">MP</string>
+    <string name="key_magnet_position_x">MPX</string>
+    <string name="key_magnet_position_y">MPY</string>
+    <!--Titles-->
+    <string name="title_magnet_position">Magnet Position</string>
+    <string name="title_magnet_position_x">X</string>
+    <string name="title_magnet_position_y">Y</string>
+
+    <!--Race Setting-->
+    <!--Keys-->
+    <string name="key_race_setting">RS</string>
+    <string name="key_countdown_length">RSCL</string>
+    <string name="key_nut_take_timeout">RSNTT</string>
+    <string name="key_n_nut">NN</string>
+    <string name="key_long_acc_threshold">RSLAT</string>
+    <string name="key_vert_acc_threshold">RSVAT</string>
+    <string name="key_gyro_threshold">RSGT</string>
+    <string name="key_back_line_position">RSBKLP</string>
+    <string name="key_front_line_position">RSFLP</string>
+    <string name="key_top_line_position">RSTLP</string>
+    <string name="key_bottom_line_position">RSBTLP</string>
+    <string name="key_vertical_speed">RSVS</string>
+    <string name="key_yaw_speed">RSYS</string>
+    <string name="key_drive_height">RSDH</string>
+    <string name="key_start_top_on">RSSTO</string>
+    <!--Titles-->
+    <string name="title_race_setting">Race Settings</string>
+    <string name="title_countdown_length">Countdown Length</string>
+    <string name="title_nut_take_timeout">Nut Taking Timeout</string>
+    <string name="title_n_nut">N Nut</string>
+    <string name="title_long_acc_threshold">Longitudinal Acceleration Threshold</string>
+    <string name="title_vert_acc_threshold">Vertical Acceleration Threshold</string>
+    <string name="title_gyro_threshold">Gyroscope Threshold</string>
+    <string name="title_back_line_position">Back Line Position</string>
+    <string name="title_front_line_position">Front Line Position</string>
+    <string name="title_top_line_position">Top Line Position</string>
+    <string name="title_bottom_line_position">Bottom Line Position</string>
+    <string name="title_vertical_speed">Vertical Speed</string>
+    <string name="title_yaw_speed">Yaw Speed (Negative for CC)</string>
+    <string name="title_drive_height">Drive Height</string>
+    <string name="title_start_top_on">Start Top ON</string>
+
+    <!--Hough Circle Transform-->
+    <!--Keys-->
+    <string name="key_hough_circle">HC</string>
+    <string name="key_hough_circle_dp">HCDP</string>
+    <string name="key_hough_circle_mindist">HCMD</string>
+    <string name="key_hough_circle_param1">HCP1</string>
+    <string name="key_hough_circle_param2">HCP2</string>
+    <string name="key_hough_circle_minradius">HCMNR</string>
+    <string name="key_hough_circle_maxradius">HCMXR</string>
+    <!--Titles-->
+    <string name="title_hough_circle">Hough Circle Transform Parameters</string>
+    <string name="title_hough_circle_dp">dp</string>
+    <string name="title_hough_circle_mindist">Minimum Circle Distance</string>
+    <string name="title_hough_circle_param1">Canny Threshold</string>
+    <string name="title_hough_circle_param2">Accumulator Threshold</string>
+    <string name="title_hough_circle_minradius">Minimum Circle Radius</string>
+    <string name="title_hough_circle_maxradius">Maximum Circle Radius</string>
+
+    <!--Hough Line Transform-->
+    <!--Keys-->
+    <string name="key_hough_line">HL</string>
+    <string name="key_hough_line_rho">HLR</string>
+    <string name="key_hough_line_theta">HLT</string>
+    <string name="key_hough_line_threshold">HLTH</string>
+    <string name="key_hough_line_minlinelength">HLMNLL</string>
+    <string name="key_hough_line_maxlinegap">HLMXLG</string>
+    <!--Titles-->
+    <string name="title_hough_line">Hough Line Transform Parameters</string>
+    <string name="title_hough_line_rho">Distance Resolution</string>
+    <string name="title_hough_line_theta">Angle Resolution (Degrees)</string>
+    <string name="title_hough_line_threshold">Accumulator Threshold</string>
+    <string name="title_hough_line_minlinelength">Minimum Line Length</string>
+    <string name="title_hough_line_maxlinegap">Maximum Line Gap</string>
+
+    <!--Color Filter-->
+    <!--Keys-->
+    <string name="key_color_filter">CF</string>
+    <string name="key_color_filter_h_low">CFHL</string>
+    <string name="key_color_filter_s_low">CFSL</string>
+    <string name="key_color_filter_v_low">CFVL</string>
+    <string name="key_color_filter_h_high">CFHH</string>
+    <string name="key_color_filter_s_high">CFSH</string>
+    <string name="key_color_filter_v_high">CFVH</string>
+    <!--Titles-->
+    <string name="title_color_filter">Color Filter</string>
+    <string name="title_color_filter_h_low">Hue (L)</string>
+    <string name="title_color_filter_s_low">Saturation (L)</string>
+    <string name="title_color_filter_v_low">Value (L)</string>
+    <string name="title_color_filter_h_high">Hue (H)</string>
+    <string name="title_color_filter_s_high">Saturation (H)</string>
+    <string name="title_color_filter_v_high">Value (H)</string>
+</resources>

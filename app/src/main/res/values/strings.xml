@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">auOROB</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="opencvsetting_canny">Canny</string>
+    <string name="opencvsetting_filter">Color Filter</string>
+    <string name="opencvsetting_line_detector">Line Detector</string>
+    <string name="opencvsetting_circle_detector">Circle Detector</string>
+    <string name="opencvsetting_filter_median">Median Color</string>
+    <string name="opencvsetting_filter_width">Bandwidth</string>
+    <string name="opencvsetting_tracker">Tracker</string>
+    <string name="opencvsetting_threshold">Threshold</string>
+
+    <string name="bluetooth_send">Send Message</string>
+    <string name="bluetooth_stream">Stream Sensor Readings</string>
+    <string name="bluetooth_initiate">Init</string>
+    <string name="bluetooth_label_sensor">Sensor Value</string>
+    <string name="bluetooth_label_bluetooth">Bluetooth Status</string>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="title_activity_settings">Prefs</string>
+
+</resources>
