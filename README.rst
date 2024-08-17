@@ -1,13 +1,9 @@
 README
-=============
+======
 
-Source code for the robot winning the
-Autonomous Underwater Robot Competition
-during the 23:sup:`rd` Singapore Robotic Games 2016.
+Source code for winner of the 23\ :sup:`rd` Singapore Robotic Games 2016's Autonomous Underwater Robot Competition.
 
 Consists of two parts:
 
-- Android app for estimating positional error with OpenCV
-  and sending them with Bluetooth.
-- Arduino for PD motor control and Bluetooth module communication
-
+- Android app for computing PID error using OpenCV and gyroscope, using Bluetooth for communication with the Arduino controller.
+- Arduino code for PID motor control and Bluetooth module.
